@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/ContagemPalavras/ContagemPalavras.iml" filepath="$PROJECT_DIR$/ContagemPalavras/ContagemPalavras.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Fibonacci/Fibonacci.iml" filepath="$PROJECT_DIR$/Fibonacci/Fibonacci.iml" />
       <module fileurl="file://$PROJECT_DIR$/Impressao De Numeros/Impressao De Numeros.iml" filepath="$PROJECT_DIR$/Impressao De Numeros/Impressao De Numeros.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Inversao De String/Inversao De String.iml" filepath="$PROJECT_DIR$/Inversao De String/Inversao De String.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Media Aritmetica/Media Aritmetica.iml" filepath="$PROJECT_DIR$/Media Aritmetica/Media Aritmetica.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Palindromo/Palindromo.iml" filepath="$PROJECT_DIR$/Palindromo/Palindromo.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Projeto Estágio - Sólides.iml" filepath="$PROJECT_DIR$/.idea/Projeto Estágio - Sólides.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Verificando Pares/Verificando Pares.iml" filepath="$PROJECT_DIR$/Verificando Pares/Verificando Pares.iml" />
     </modules>
   </component>
 </project>
