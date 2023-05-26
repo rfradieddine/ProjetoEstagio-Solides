@@ -2,20 +2,20 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.print("Digite uma palavra: ");
-        String palavra = scanner.nextLine(); // lê a palavra digitada pelo usuário
-        scanner.close();
+        String palavra = sc.nextLine(); // lê a palavra digitada pelo usuário
+        sc.close();
 
-        if (verificarPalindromo(palavra)) { // chama o método verificarPalindromo e verifica se o retorno é verdadeiro
-            System.out.println("A palavra é um palíndromo.");
-        } else {
-            System.out.println("A palavra não é um palíndromo.");
-        }
+            if (verificarPalindromo(palavra)) { // chama o método verificarPalindromo e verifica se o retorno é verdadeiro
+                System.out.println("A palavra é um palíndromo.");
+            } else {
+                System.out.println("A palavra não é um palíndromo.");
+            }
     }
 
     public static boolean verificarPalindromo(String palavra) { // método que verifica se uma palavra é um palíndromo
-        palavra = palavra.replaceAll("\\s+", "").toLowerCase();
+        palavra = palavra.replaceAll("\\s+", "").toLowerCase(); // remove os espaços em branco e converte a palavra para minúsculo
 
         int comprimento = palavra.length(); // armazena o comprimento da palavra em uma variável
         for (int i = 0; i < comprimento / 2; i++) { // percorre metade da palavra

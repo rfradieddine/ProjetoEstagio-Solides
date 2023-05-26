@@ -2,15 +2,15 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
         System.out.println("Digite uma frase:"); // imprime a mensagem
-        String frase = scanner.nextLine(); // lê a frase digitada pelo usuário
+        String frase = sc.nextLine(); // lê a frase digitada pelo usuário
 
         int contadorPalavras = contarPalavras(frase); // chama o método contarPalavras e armazena o retorno na variável contadorPalavras
         System.out.println("Número de palavras: " + contadorPalavras); // imprime o número de palavras
 
-        scanner.close(); // fecha o scanner
+        sc.close(); // fecha o scanner
     }
 
     private static int contarPalavras(String frase) {

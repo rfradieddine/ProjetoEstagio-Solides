@@ -2,15 +2,15 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
-        System.out.println("Digite uma string:");
-        String entrada = scanner.nextLine(); // Recebe a string
+        System.out.println("Digite uma palavra:");
+        String entrada = sc.nextLine(); // Recebe a string
 
         String stringInvertida = inverterString(entrada); // Chama o método responsável por inverter a string
         System.out.println("String invertida: " + stringInvertida); // Imprime a string invertida
 
-        scanner.close();
+        sc.close();
     }
 
     private static String inverterString(String entrada) {

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Chatbot/Chatbot.iml" filepath="$PROJECT_DIR$/Chatbot/Chatbot.iml" />
       <module fileurl="file://$PROJECT_DIR$/ContagemPalavras/ContagemPalavras.iml" filepath="$PROJECT_DIR$/ContagemPalavras/ContagemPalavras.iml" />
       <module fileurl="file://$PROJECT_DIR$/Fibonacci/Fibonacci.iml" filepath="$PROJECT_DIR$/Fibonacci/Fibonacci.iml" />
       <module fileurl="file://$PROJECT_DIR$/Impressao De Numeros/Impressao De Numeros.iml" filepath="$PROJECT_DIR$/Impressao De Numeros/Impressao De Numeros.iml" />
