@@ -6,32 +6,32 @@ public class Main {
     public static List<Integer> obterNumerosPares(List<Integer> numeros) {
         List<Integer> numerosPares = new ArrayList<>();
 
-        for (int numero : numeros) {
-            if (numero % 2 == 0) {
-                numerosPares.add(numero);
+        for (int numero : numeros) { // Para cada número na lista de números
+            if (numero % 2 == 0) { // Se o número for par
+                numerosPares.add(numero); // Adiciona o número na lista de números pares
             }
         }
         return numerosPares;
     }
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        List<Integer> numeros = new ArrayList<>();
+        Scanner sc = new Scanner(System.in);
+        List<Integer> numeros = new ArrayList<>(); // Lista de números
 
         System.out.print("Digite a quantidade de números: ");
-        int quantidadeNumeros = scanner.nextInt();
+        int quantidadeNumeros = sc.nextInt(); // Quantidade de números
 
         System.out.println("Digite os números:");
 
-        for (int i = 0; i < quantidadeNumeros; i++) {
-            int numero = scanner.nextInt();
+        for (int i = 0; i < quantidadeNumeros; i++) { // Para cada número
+            int numero = sc.nextInt();
             numeros.add(numero);
         }
 
-        List<Integer> numerosPares = obterNumerosPares(numeros);
+        List<Integer> numerosPares = obterNumerosPares(numeros); // Lista de números pares
 
         System.out.println("Números pares digitados: " + numerosPares);
 
-        scanner.close();
+        sc.close();
     }
 }
