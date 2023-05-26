@@ -99,7 +99,6 @@ public class Main {
         }else {
             System.out.println("Opção inválida. Tente novamente.");
         }
-
     }
 
     public static void objetivoEstudar() {
